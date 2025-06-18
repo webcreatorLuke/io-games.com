@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #4facfe, #00c6ff);
+    color: white;
+}
+
+#gameContainer {
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    background: #e0e0e0;
+    position: relative;
+    border: 2px solid #333;
+}
+
+#player {
+    width: 20px;
+    height: 20px;
+    background: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: 0.1s ease-in-out;
+}
